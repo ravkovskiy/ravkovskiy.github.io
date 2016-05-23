@@ -24,7 +24,7 @@ System.register(["angular2/core"], function(exports_1, context_1) {
                 InputUserComponent = __decorate([
                     core_1.Component({
                         selector: 'inputUser_component',
-                        template: "\n        <div class='price'>\n            <span>Input User</span>\n        </div>\n    "
+                        template: "\n    <div class=\"input_log\">\n        <!-- Nav tabs -->\n<ul>\n  <li class=\"active\"><a href=\"#userinput\" data-toggle=\"tab\">\u0412\u0445\u043E\u0434</a></li>\n  <li><a href=\"#userreg\" data-toggle=\"tab\">\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F</a></li>\n</ul>\n</div>\n<!-- Tab panes -->\n<div class=\"tab-content\">\n  <div class=\"tab-pane active\" id=\"userinput\">123</div>\n  <div class=\"tab-pane\" id=\"userreg\">...</div>\n</div>\n<div class=\"clearBoth\"></div>\n    "
                     }), 
                     __metadata('design:paramtypes', [])
                 ], InputUserComponent);
