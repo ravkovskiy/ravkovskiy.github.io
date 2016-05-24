@@ -2,7 +2,7 @@
     clear: both;
 }
 .input_log {
-    float: left;
+   /* float: left;*/
     background-color: #eee;
     margin-left: 20px;
     margin-top: 40px;
@@ -25,4 +25,7 @@
 .input_log a:hover {
     background-color: #ccf;
     cursor: pointer;
+}
+.input_log li.active a {
+    background-color: #99f;
 }
