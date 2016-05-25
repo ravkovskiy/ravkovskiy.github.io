@@ -1,31 +1,9 @@
-.clearBoth {
-    clear: both;
-}
-.input_log {
-   /* float: left;*/
-    background-color: #eee;
-    margin-left: 20px;
-    margin-top: 40px;
-}
-.input_log ul {
+.inputUser .modal-footer ul {
     list-style: none;
-    padding-left: 0;
-    margin-bottom: 20;
 }
-.input_log a {
-    background-color: #ecf;
-    padding: 10px;
+.inputUser .modal-footer li {
     display: inline-block;
-    width: 100px;
-    text-decoration: none;
 }
-.input_log li:last-child {
-    margin-top: 5px;
-}
-.input_log a:hover {
-    background-color: #ccf;
-    cursor: pointer;
-}
-.input_log li.active a {
-    background-color: #99f;
+.inputUser .modal-footer li.active a {
+    background-color: #ddd;
 }

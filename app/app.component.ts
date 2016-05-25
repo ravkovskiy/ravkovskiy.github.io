@@ -24,6 +24,5 @@ import {RouteConfig} from "angular2/router";
     {path: '/portfolio', name: 'Portfolio', component: PortfolioComponent},
     {path: '/reviews', name: 'Reviews', component: ReviewsComponent},
     {path: '/contacts', name: 'Contacts', component: ContactsComponent},
-    {path: '/input', name: 'InputUser', component: InputUserComponent},
 ])
 export class AppComponent { }

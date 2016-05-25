@@ -1,4 +1,5 @@
 <header class="top_header header">
+    <inputUser_component></inputUser_component>
     <div class="header_topline">
         <div class="container">
             <div class="col-md-12">
@@ -17,7 +18,7 @@
                     </div>
                     
                     <div class="registr">
-                        <a [routerLink]="['InputUser']">
+                        <a class="modal-link" data-toggle="modal" data-target="#inputUserModal">
                             <i class="fa fa-user" aria-hidden="true"></i>
                             <span>Регистрация/Вход</span>
                         </a>
@@ -50,6 +51,7 @@
             </div>
         </div>
     </div>
+
 </header>
 <router-outlet></router-outlet>
 <footer_component></footer_component>

@@ -65,7 +65,6 @@ System.register(['angular2/core', './header/header.component', './price/price.co
                         { path: '/portfolio', name: 'Portfolio', component: portfolio_component_1.PortfolioComponent },
                         { path: '/reviews', name: 'Reviews', component: reviews_component_1.ReviewsComponent },
                         { path: '/contacts', name: 'Contacts', component: contacts_component_1.ContactsComponent },
-                        { path: '/input', name: 'InputUser', component: inputUser_component_1.InputUserComponent },
                     ]), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
