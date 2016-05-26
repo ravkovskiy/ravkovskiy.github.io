@@ -4,6 +4,6 @@
 .inputUser .modal-footer li {
     display: inline-block;
 }
-.inputUser .modal-footer li.active a {
-    background-color: #ddd;
+.inputUser .modal-footer li.active {
+    display: none;
 }
