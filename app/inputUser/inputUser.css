@@ -7,3 +7,11 @@
 .inputUser .modal-footer li.active {
     display: none;
 }
+.btn-reg {
+    background-color: #199;
+    color: white;
+}
+.btn-inp {
+    background-color: #2a5;
+    color: white
+}
